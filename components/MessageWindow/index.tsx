@@ -60,8 +60,8 @@ const MessageWindow = (props: any) => {
   let messageWindow: any = useRef(null);
   useEffect(() => {
     messageWindow = messageWindow.current;
-    messageWindow.scrollTop =
-      messageWindow.scrollHeight - messageWindow.clientHeight;
+    // messageWindow.scrollTop =
+      // messageWindow.scrollHeight - messageWindow.clientHeight;
   }, [messageWindow]);
 
   const username: string = props.username;
