@@ -2,7 +2,6 @@
 
 ## Problems
 
-
 1. Environment Variables check `next.config.js`
 
 2. serviceWorker isn't working because window element is not rendering.
